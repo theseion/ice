@@ -4,7 +4,6 @@ baseline: spec
 	
 	spec for: #pharo do: [
 		self libGit2: spec.
-		self ston: spec.
 		
 		spec
 			package: 'Ice' with: [ spec requires: #('STON' 'LibGit2') ];
