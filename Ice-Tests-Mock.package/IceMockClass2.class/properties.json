@@ -1,0 +1,14 @@
+{
+	"category" : "Ice-Tests-Mock",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "IceMockClass2",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+private
+extensionPackageReferenceOn: aReference
+	^ self originPackage asIceDescription referenceDirectoryOn: aReference

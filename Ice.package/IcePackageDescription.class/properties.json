@@ -1,0 +1,14 @@
+{
+	"category" : "Ice-Description",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "IcePackageDescription",
+	"pools" : [
+		 ],
+	"super" : "IceDescription",
+	"type" : "normal" }

@@ -1,0 +1,18 @@
+{
+	"category" : "Ice-Description",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "EstebanLorenzano 5/9/2015 15:26",
+	"instvars" : [
+		"superclass",
+		"classSlots",
+		"sharedSlots",
+		"slots",
+		"sharedPools" ],
+	"name" : "IceClassDescription",
+	"pools" : [
+		 ],
+	"super" : "IceBehaviorDescription",
+	"type" : "normal" }

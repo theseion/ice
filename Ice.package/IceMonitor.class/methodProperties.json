@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"new" : "EstebanLorenzano 4/9/2015 11:13",
+		"registerForNotifications" : "EstebanLorenzano 4/9/2015 17:49",
+		"uniqueInstance" : "EstebanLorenzano 4/9/2015 11:13" },
+	"instance" : {
+		"classAdded:" : "EstebanLorenzano 4/13/2015 17:59",
+		"classRecategorized:" : "EstebanLorenzano 4/18/2015 16:16",
+		"classRemoved:" : "EstebanLorenzano 4/13/2015 17:59",
+		"classRenamed:" : "EstebanLorenzano 4/14/2015 17:27",
+		"classUpdated:" : "EstebanLorenzano 4/14/2015 15:44",
+		"includesProject:" : "EstebanLorenzano 4/9/2015 11:55",
+		"initialize" : "EstebanLorenzano 4/9/2015 11:14",
+		"methodAdded:" : "EstebanLorenzano 4/18/2015 16:56",
+		"methodRemoved:" : "EstebanLorenzano 4/18/2015 17:05",
+		"methodUpdated:" : "EstebanLorenzano 4/18/2015 17:47",
+		"packageRemoved:" : "EstebanLorenzano 4/18/2015 16:44",
+		"packageRenamed:" : "EstebanLorenzano 4/13/2015 11:51",
+		"projects" : "EstebanLorenzano 4/9/2015 11:55",
+		"registerInterestOnSystemChangesOn:" : "EstebanLorenzano 4/18/2015 17:50",
+		"registerProject:" : "EstebanLorenzano 4/9/2015 11:14",
+		"unregisterProject:" : "EstebanLorenzano 4/9/2015 11:19" } }

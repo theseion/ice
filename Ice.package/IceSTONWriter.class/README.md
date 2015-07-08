@@ -1,0 +1,1 @@
+I'm a STON writer prepared to export ice files.

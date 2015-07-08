@@ -1,0 +1,3 @@
+registering
+unregister
+	IceMonitor uniqueInstance unregisterProject: self

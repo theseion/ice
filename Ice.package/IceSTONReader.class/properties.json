@@ -1,0 +1,14 @@
+{
+	"category" : "Ice",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"indirectClasses" ],
+	"name" : "IceSTONReader",
+	"pools" : [
+		 ],
+	"super" : "STONReader",
+	"type" : "normal" }

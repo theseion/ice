@@ -1,0 +1,14 @@
+{
+	"category" : "Ice",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "IceSTONWriter",
+	"pools" : [
+		 ],
+	"super" : "STONWriter",
+	"type" : "normal" }

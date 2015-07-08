@@ -1,0 +1,1 @@
+This is a mock class used to test Ice project manager

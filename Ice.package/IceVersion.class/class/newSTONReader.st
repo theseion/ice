@@ -1,0 +1,3 @@
+factory
+newSTONReader
+	^ IceSTONReader new

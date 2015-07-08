@@ -1,0 +1,18 @@
+{
+	"category" : "Ice-Tests-Mock",
+	"classinstvars" : [
+		"instance1" ],
+	"classtraitcomposition" : "TIceMockTrait1 classTrait",
+	"classvars" : [
+		"Test" ],
+	"commentStamp" : "EstebanLorenzano 4/9/2015 15:37",
+	"instvars" : [
+		"test1",
+		"test2",
+		"anotherTest" ],
+	"name" : "IceMockClass1",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "TIceMockTrait1 @ {#traitMethodAlias->#traitMethod1}",
+	"type" : "normal" }

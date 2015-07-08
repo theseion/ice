@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfIce",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfIce",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

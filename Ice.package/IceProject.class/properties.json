@@ -1,0 +1,17 @@
+{
+	"category" : "Ice",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"name",
+		"repository",
+		"packages",
+		"version" ],
+	"name" : "IceProject",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

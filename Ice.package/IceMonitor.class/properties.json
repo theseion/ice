@@ -1,0 +1,14 @@
+{
+	"category" : "Ice",
+	"classinstvars" : [
+		"uniqueInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"projects" ],
+	"name" : "IceMonitor",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

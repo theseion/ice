@@ -1,0 +1,17 @@
+{
+	"category" : "Ice-Description",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"category",
+		"comment",
+		"traits",
+		"classTraits" ],
+	"name" : "IceBehaviorDescription",
+	"pools" : [
+		 ],
+	"super" : "IceDescription",
+	"type" : "normal" }

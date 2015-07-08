@@ -1,0 +1,15 @@
+{
+	"category" : "Ice-Description",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Specials" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"categories",
+		"source" ],
+	"name" : "IceMethodDescription",
+	"pools" : [
+		 ],
+	"super" : "IceDescription",
+	"type" : "normal" }

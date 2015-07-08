@@ -1,0 +1,3 @@
+removing
+removePackage: aPackage
+	self removeDescriptionDirectory: aPackage asIceDescription
