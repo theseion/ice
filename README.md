@@ -1,0 +1,1 @@
+ICE is an attempt to provide a better file format for Pharo and Git.
