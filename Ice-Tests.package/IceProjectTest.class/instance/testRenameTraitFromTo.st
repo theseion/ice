@@ -9,7 +9,7 @@ testRenameTraitFromTo
 	self assert: (project repository / 'Ice-Tests-Mock.package' / 'TIceMockTrait1.trait') exists.
 
 	project 
-		renameTrait: IceMockClass1
+		renameTrait: TIceMockTrait1
 		from: 'TIceMockTrait1' 
 		to: 'TIceMockTrait1V2'.
 	
