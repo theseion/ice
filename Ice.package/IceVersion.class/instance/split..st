@@ -4,6 +4,6 @@ split: aString
 	
 	index := aString lastIndexOf: $}.
 	^ { 
-	aString first: index. 
+	self removeEnclosingQuotesOf: (aString first: index). 
 	aString copyFrom: index + 1 to: aString size 
 	}
