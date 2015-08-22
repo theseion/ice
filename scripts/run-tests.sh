@@ -2,7 +2,7 @@
 
 set -ex
 
-wget --quiet -O - get.pharo.org/50+vmLatest | bash
+wget --quiet -O - get.pharo.org/50+vm | bash
 
 ./pharo Pharo.image eval --save "
 Metacello new 
