@@ -1,0 +1,14 @@
+{
+	"category" : "Ice",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "EstebanLorenzano 5/9/2015 15:23",
+	"instvars" : [
+		"project" ],
+	"name" : "IceFormatVersion",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

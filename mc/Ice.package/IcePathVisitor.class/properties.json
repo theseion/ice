@@ -1,0 +1,14 @@
+{
+	"category" : "Ice",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"root" ],
+	"name" : "IcePathVisitor",
+	"pools" : [
+		 ],
+	"super" : "IceVisitor",
+	"type" : "normal" }

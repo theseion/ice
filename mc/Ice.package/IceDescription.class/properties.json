@@ -1,0 +1,14 @@
+{
+	"category" : "Ice-Description",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "EstebanLorenzano 5/9/2015 15:25",
+	"instvars" : [
+		"name" ],
+	"name" : "IceDescription",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
