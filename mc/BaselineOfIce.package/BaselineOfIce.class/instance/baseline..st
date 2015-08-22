@@ -6,7 +6,7 @@ baseline: spec
 		self libGit2: spec.
 		
 		spec
-			package: 'Ice' with: [ spec requires: #('STON' 'LibGit2') ];
+			package: 'Ice' with: [ spec requires: #('LibGit2') ];
 			package: 'Ice-Tests' with: [ spec requires: #('Ice') ];
 			package: 'Ice-Tests-Mock'.
 			
