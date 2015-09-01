@@ -1,5 +1,5 @@
 visitor
 visitMethod: aMethod
-	^ (aMethod methodClass iceAccept: self) / (aMethod methodClass isInstanceSide 
+	^ (aMethod origin instanceSide iceAccept: self) / (aMethod origin isInstanceSide 
 		ifTrue: [ 'instance' ]
 		ifFalse: [ 'class' ]) 

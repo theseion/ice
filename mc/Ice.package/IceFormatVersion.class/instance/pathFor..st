@@ -1,3 +1,3 @@
 removing
-pathFor: aClass
-	^ (IcePathVisitor root: self repository root) visit: aClass
+pathFor: anObject
+	^ (IcePathVisitor root: self repository root) visit: anObject
