@@ -1,7 +1,7 @@
 tests repository
 testUpdateMethod
-	| project package classDir methodDef method |
-	
+	| project package classDir methodDef method description |
+
 	package := self createPackageForTest.
 	project := self createProjectForTest.
 	
@@ -9,10 +9,12 @@ testUpdateMethod
 
 	classDir := project repository / 'Ice-Tests-Mock.package' / 'IceMockClass1.class'.
 	methodDef := classDir / 'instance' / 'method1.st'.
-	self assert: (self descriptionFrom: methodDef) categories anyOne = (IceMockClass1>>#method1) protocol. 
+	description	:= project version readMethodDescriptionFrom: methodDef.
+	self assert: description categories anyOne = (IceMockClass1>>#method1) protocol. 
 
 	method := (IceMockClass1>>#method1) copy.
 	method protocol: #'testing'.
 	project updateMethod: method.
-	
-	self assert: (self descriptionFrom: methodDef) categories anyOne = #'testing'
+
+	description	:= project version readMethodDescriptionFrom: methodDef.	
+	self assert: description categories anyOne = #'testing'
