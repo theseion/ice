@@ -2,8 +2,7 @@ renaming
 renameMethod: aMethod from: oldName to: newName
 	| fromDescription toDescription |
 	
-	fromDescription := (IceMethodDescription descriptionFor: aMethod) new 
-		origin: aMethod;
+	fromDescription := (IceMethodDescription from: aMethod)
 		name: oldName;
 		yourself.
 	toDescription := (IceMethodDescription from: aMethod) 
@@ -11,6 +10,6 @@ renameMethod: aMethod from: oldName to: newName
 		yourself.
 
 	"Remove old method"
-	(fromDescription referenceOn: self repository) ensureDelete.
+	((self pathFor: fromDescription) / fromDescription fileName) ensureDelete.
 	"Write new method"	
-	self writeDescription: toDescription	
+	self writeMethodDescription: toDescription to: (self pathFor: toDescription)

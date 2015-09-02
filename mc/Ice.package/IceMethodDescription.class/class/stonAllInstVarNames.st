@@ -1,3 +1,3 @@
 accessing
 stonAllInstVarNames
-	^ super stonAllInstVarNames copyWithoutAll: #(name source)
+	^ #(categories timeStamp)

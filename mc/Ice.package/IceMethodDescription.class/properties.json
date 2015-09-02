@@ -6,6 +6,11 @@
 		"Specials" ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
+		"packageName",
+		"className",
+		"isInstanceSide",
+		"isTrait",
+		"isExtension",
 		"categories",
 		"timeStamp",
 		"source" ],

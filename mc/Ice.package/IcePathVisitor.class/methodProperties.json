@@ -3,9 +3,14 @@
 		"new" : "EstebanLorenzano 7/10/2015 14:34",
 		"root:" : "EstebanLorenzano 7/10/2015 14:34" },
 	"instance" : {
+		"behaviorExtensionForMethodDescription:" : "EstebanLorenzano 9/2/2015 11:19",
 		"initializeRoot:" : "EstebanLorenzano 7/10/2015 14:34",
 		"root" : "EstebanLorenzano 7/10/2015 14:34",
 		"visitClass:" : "EstebanLorenzano 7/10/2015 14:33",
+		"visitClassDescription:" : "EstebanLorenzano 9/2/2015 10:34",
 		"visitMethod:" : "EstebanLorenzano 9/1/2015 17:25",
+		"visitMethodDescription:" : "EstebanLorenzano 9/2/2015 11:15",
 		"visitPackage:" : "EstebanLorenzano 7/10/2015 14:33",
-		"visitTrait:" : "EstebanLorenzano 9/1/2015 17:28" } }
+		"visitPackageDescription:" : "EstebanLorenzano 9/2/2015 10:24",
+		"visitTrait:" : "EstebanLorenzano 9/1/2015 17:28",
+		"visitTraitDescription:" : "EstebanLorenzano 9/2/2015 10:34" } }

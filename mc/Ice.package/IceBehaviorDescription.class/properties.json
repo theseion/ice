@@ -6,6 +6,7 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
+		"packageName",
 		"category",
 		"comment",
 		"traits",

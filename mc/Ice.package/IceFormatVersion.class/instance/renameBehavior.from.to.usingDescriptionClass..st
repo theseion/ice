@@ -1,9 +1,8 @@
 private renaming
 renameBehavior: aBehavior from: oldName to: newName usingDescriptionClass: descriptionClass
-	| fromDescription toDescription |
+	| fromDescription toDescription toReference |
 	
-	fromDescription := descriptionClass new 
-		origin: aBehavior;
+	fromDescription := (descriptionClass from: aBehavior)
 		name: oldName;
 		yourself.
 	toDescription := (descriptionClass from: aBehavior) 
@@ -11,7 +10,7 @@ renameBehavior: aBehavior from: oldName to: newName usingDescriptionClass: descr
 		yourself.
 	
 	"rename directory"
-	(fromDescription referenceDirectoryOn: self repository)
-		renameTo: (toDescription referenceDirectoryOn: self repository) basename.
+	(self pathFor: fromDescription)
+		renameTo: (toReference := self pathFor: toDescription) basename.
 	"rewrite definition"
-	self writeDescription: toDescription
+	self writeBehaviorDescription: toDescription to: toReference
