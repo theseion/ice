@@ -1,5 +1,5 @@
 private
 stonWriterOn: stream
-	^ self class newSTONWriter
+	^ self newSTONWriter
 		on: stream;
 		yourself
