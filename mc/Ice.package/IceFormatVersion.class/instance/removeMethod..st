@@ -1,6 +1,3 @@
 removing
-removeMethod: aMethod
-	(aMethod asIceDescription 
-		referenceOn: self 
-		origin: aMethod) 
-		ensureDelete
+removeMethod: aMethod 
+	(self pathFor: aMethod) ensureDelete

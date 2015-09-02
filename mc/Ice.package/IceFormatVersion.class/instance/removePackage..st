@@ -1,3 +1,3 @@
 removing
 removePackage: aPackage
-	self removeDescriptionDirectory: aPackage asIceDescription
+	(self pathFor: aPackage) ensureDelete

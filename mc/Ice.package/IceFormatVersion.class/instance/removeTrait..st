@@ -1,3 +1,3 @@
 removing
 removeTrait: aTrait 
-	self removeDescriptionDirectory: aTrait asIceDescription
+	(self pathFor: aTrait) ensureDelete 
