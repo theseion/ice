@@ -1,3 +1,3 @@
 *Ice
 asIceDescription
-	^ IceClassDescription origin: self
+	^ IceClassDescription from: self

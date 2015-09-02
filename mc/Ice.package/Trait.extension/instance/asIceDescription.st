@@ -1,3 +1,3 @@
 *Ice
 asIceDescription
-	^ IceTraitDescription origin: self
+	^ IceTraitDescription from: self

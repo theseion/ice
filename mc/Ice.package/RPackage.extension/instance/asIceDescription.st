@@ -1,3 +1,3 @@
 *Ice
 asIceDescription
-	^ IcePackageDescription origin: self
+	^ IcePackageDescription from: self

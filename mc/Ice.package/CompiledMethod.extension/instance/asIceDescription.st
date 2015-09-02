@@ -1,3 +1,3 @@
 *Ice
 asIceDescription
-	^ IceMethodDescription origin: self
+	^ IceMethodDescription from: self
