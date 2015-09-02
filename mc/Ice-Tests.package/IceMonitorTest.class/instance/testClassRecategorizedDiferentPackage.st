@@ -11,7 +11,7 @@ testClassRecategorizedDiferentPackage
 	classDir := project repository / 'Ice-Tests-Mock.package' / 'IceMockClass1.class'.
 	classDef := classDir / IceDescription definitionFileName.
 	self assert: classDef exists.
-	self assert: (self descriptionFrom: classDef) category = 'Ice-Tests-Mock'. 
+	self assert: (project version readClassDescriptionFrom: classDir) category = 'Ice-Tests-Mock'. 
 
 	class := IceMockClass1 copy.
 	class basicCategory: #'Ice-DoesNotExists'.
