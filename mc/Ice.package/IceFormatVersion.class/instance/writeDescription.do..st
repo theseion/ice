@@ -1,4 +1,4 @@
-private writing
+private old
 writeDescription: aDescription do: aBlock
 	| reference |
 	reference := aDescription referenceOn: self repository.

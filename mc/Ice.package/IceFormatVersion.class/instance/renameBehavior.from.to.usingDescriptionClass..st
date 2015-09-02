@@ -1,4 +1,4 @@
-private renaming
+private
 renameBehavior: aBehavior from: oldName to: newName usingDescriptionClass: descriptionClass
 	| fromDescription toDescription toReference |
 	

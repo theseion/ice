@@ -1,4 +1,4 @@
-private writing
+private
 writePackageDescription: description to: aReference
 	"For now, since I do not have anything to do with packages, I do nothing but ensure the 
 	 directory is created. 

@@ -1,4 +1,4 @@
-private writing
+private old
 writeDescription: aDescription
 	self 
 		writeDescription: aDescription 

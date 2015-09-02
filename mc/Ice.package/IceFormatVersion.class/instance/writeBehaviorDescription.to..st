@@ -1,4 +1,4 @@
-private writing
+private
 writeBehaviorDescription: description to: aReference
 	aReference ensureCreateDirectory.
 	(aReference / self class definitionFileName)

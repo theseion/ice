@@ -1,4 +1,4 @@
-private writing
+private
 writeMethodDescription: description to: aReference
 	aReference ensureCreateDirectory.
 	(aReference / description fileName)
