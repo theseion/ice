@@ -1,5 +1,5 @@
 visitor
 visitTrait: aTrait
 	^ self root
-		/ (aTrait package name, self class extensionPackage) 
-		/ (aTrait name, self class extensionTrait)
+		/ (aTrait package name, IceFormatVersion extensionPackage) 
+		/ (aTrait name, IceFormatVersion extensionTrait)

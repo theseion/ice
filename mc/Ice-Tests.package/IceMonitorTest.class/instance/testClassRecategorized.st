@@ -11,7 +11,7 @@ testClassRecategorized
 	classDir := project repository / 'Ice-Tests-Mock.package' / 'IceMockClass1.class'.
 	classDef := classDir / IceDefinition definitionFileName.
 	self assert: classDef exists.
-	self assert: (project version  readClassDescriptionFrom: classDir) category = 'Ice-Tests-Mock'. 
+	self assert: (project version  readClassDefinitionFrom: classDir) category = 'Ice-Tests-Mock'. 
 
 	class := IceMockClass1 copy.
 	class basicCategory: #'Ice-Tests-Mock-Changed'.
@@ -20,4 +20,4 @@ testClassRecategorized
 		recategorizedFrom: #'Ice-Tests-Mock' 
 		to: #'Ice-Tests-Mock-Changed').
 		
-	self assert: (project version readClassDescriptionFrom: classDir) category = 'Ice-Tests-Mock-Changed'
+	self assert: (project version readClassDefinitionFrom: classDir) category = 'Ice-Tests-Mock-Changed'

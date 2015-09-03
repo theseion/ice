@@ -1,7 +1,10 @@
 reading
-readMethodDescriptionFrom: aReference
+readMethodDefinitionFrom: aReference
+	"Reference has to point to a method implementation. 
+	 e.g. root / A.package / B.class / instance / method.st"
+	
 	| contents description classDir |
-	contents := aReference readStreamDo: [ :stream | self split: stream contents ].
+	contents := aReference readStreamDo: [ :stream | self splitMethod: stream contents ].
 	description := aReference readStreamDo: [ :stream | 
 		IceDefinition 
 			fromStream: contents first readStream 
@@ -16,7 +19,7 @@ readMethodDescriptionFrom: aReference
 	classDir := aReference parent parent.
 	description flagTrait: classDir extension = 'trait'.
 	description flagExtension: classDir extension = 'extension'.
-	description className: classDir basename.
-	description packageName: classDir parent basename.
+	description className: classDir base.
+	description packageName: classDir parent base.
 		
 	^ description

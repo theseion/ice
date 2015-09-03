@@ -8,10 +8,10 @@ testUpdateClass
 	project addPackage: package.	
 
 	classDir := project repository / 'Ice-Tests-Mock.package' / 'IceMockClass1.class'.
-	self assert: (project version readClassDescriptionFrom: classDir) comment = IceMockClass1 organization comment. 
+	self assert: (project version readClassDefinitionFrom: classDir) comment = IceMockClass1 organization comment. 
 
 	class := IceMockClass1 copy.
 	class organization comment: 'Changed comment'.
 	project updateClass: class.
 	
-	self assert: (project version readClassDescriptionFrom: classDir) comment = 'Changed comment'
+	self assert: (project version readClassDefinitionFrom: classDir) comment = 'Changed comment'

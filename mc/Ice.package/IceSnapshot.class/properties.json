@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"definitions" ],
+		"definitions",
+		"project" ],
 	"name" : "IceSnapshot",
 	"pools" : [
 		 ],

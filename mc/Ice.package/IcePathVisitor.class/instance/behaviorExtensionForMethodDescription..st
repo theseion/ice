@@ -1,5 +1,5 @@
 private
 behaviorExtensionForMethodDescription: aDescription
-	aDescription isExtension ifTrue: [ ^ '.extension' ].
-	aDescription isTrait ifTrue: [ ^ '.trait' ].
-	^ '.class'
+	aDescription isExtension ifTrue: [ ^ IceFormatVersion extensionExtension ].
+	aDescription isTrait ifTrue: [ ^ IceFormatVersion extensionTrait ].
+	^ IceFormatVersion extensionClass

@@ -1,4 +1,4 @@
 visitor
 visitPackageDescription: aDescription
-	^ self root / (aDescription name, self class extensionPackage) 		
+	^ self root / (aDescription name, IceFormatVersion extensionPackage) 		
 	

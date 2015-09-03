@@ -1,5 +1,18 @@
 {
 	"class" : {
-		 },
+		"new" : "EstebanLorenzano 9/3/2015 08:41",
+		"project:" : "EstebanLorenzano 9/3/2015 08:40" },
 	"instance" : {
-		 } }
+		"addDefinition:" : "EstebanLorenzano 9/3/2015 09:17",
+		"definitions" : "EstebanLorenzano 9/3/2015 09:17",
+		"initialize" : "EstebanLorenzano 9/3/2015 09:18",
+		"initializeProject:" : "EstebanLorenzano 9/3/2015 08:41",
+		"project" : "EstebanLorenzano 9/3/2015 08:49",
+		"projectRoot" : "EstebanLorenzano 9/3/2015 09:19",
+		"projectVersion" : "EstebanLorenzano 9/3/2015 08:49",
+		"record" : "EstebanLorenzano 9/3/2015 09:19",
+		"recordClass:" : "EstebanLorenzano 9/3/2015 09:08",
+		"recordMethod:" : "EstebanLorenzano 9/3/2015 09:17",
+		"recordMethods:" : "EstebanLorenzano 9/3/2015 09:11",
+		"recordPackage:" : "EstebanLorenzano 9/3/2015 09:20",
+		"recordTrait:" : "EstebanLorenzano 9/3/2015 09:07" } }

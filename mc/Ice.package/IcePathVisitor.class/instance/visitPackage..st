@@ -1,3 +1,3 @@
 visitor
 visitPackage: aPackage
-	^ self root / (aPackage name, self class extensionPackage)
+	^ self root / (aPackage name, IceFormatVersion extensionPackage)
