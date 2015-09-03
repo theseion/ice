@@ -1,5 +1,5 @@
 {
-	"category" : "Ice-Description",
+	"category" : "Ice-Definitions",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -11,8 +11,8 @@
 		"sharedSlots",
 		"slots",
 		"sharedPools" ],
-	"name" : "IceClassDescription",
+	"name" : "IceClassDefinition",
 	"pools" : [
 		 ],
-	"super" : "IceBehaviorDescription",
+	"super" : "IceBehaviorDefinition",
 	"type" : "normal" }

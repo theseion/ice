@@ -2,10 +2,10 @@ renaming
 renamePackage: aPackage from: oldName to: newName
 	| fromDescription toDescription toReference |
 	
-	fromDescription := (IcePackageDescription from: aPackage)
+	fromDescription := (IcePackageDefinition from: aPackage)
 		name: oldName;
 		yourself.
-	toDescription := (IcePackageDescription from: aPackage)
+	toDescription := (IcePackageDefinition from: aPackage)
 		name: newName;
 		yourself.
 	

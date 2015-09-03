@@ -4,4 +4,4 @@ renameTrait: aTrait from: oldName to: newName
 		renameBehavior: aTrait 
 		from: oldName 
 		to: newName 
-		usingDescriptionClass: IceTraitDescription
+		usingDescriptionClass: IceTraitDefinition

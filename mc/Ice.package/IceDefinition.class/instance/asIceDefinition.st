@@ -1,3 +1,3 @@
 converting
-asIceDescription
+asIceDefinition
 	^ self

@@ -4,4 +4,4 @@ renameClass: aClass from: oldName to: newName
 		renameBehavior: aClass 
 		from: oldName 
 		to: newName 
-		usingDescriptionClass: IceClassDescription
+		usingDescriptionClass: IceClassDefinition

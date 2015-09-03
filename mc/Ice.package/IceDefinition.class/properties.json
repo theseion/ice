@@ -1,5 +1,5 @@
 {
-	"category" : "Ice-Description",
+	"category" : "Ice-Definitions",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -7,7 +7,7 @@
 	"commentStamp" : "EstebanLorenzano 5/9/2015 15:25",
 	"instvars" : [
 		"name" ],
-	"name" : "IceDescription",
+	"name" : "IceDefinition",
 	"pools" : [
 		 ],
 	"super" : "Object",

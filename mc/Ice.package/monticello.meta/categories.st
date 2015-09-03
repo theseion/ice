@@ -1,2 +1,2 @@
 SystemOrganization addCategory: #Ice!
-SystemOrganization addCategory: 'Ice-Description'!
+SystemOrganization addCategory: 'Ice-Definitions'!

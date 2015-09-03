@@ -14,6 +14,6 @@ testClassAdded
 
 	self assert: (project repository / 'Ice-Tests-Mock.package') exists.
 	self assert: (project repository / 'Ice-Tests-Mock.package' / 'IceMockClass1.class') exists.
-	self assert: (project repository / 'Ice-Tests-Mock.package' / 'IceMockClass1.class' / IceDescription definitionFileName) exists.
+	self assert: (project repository / 'Ice-Tests-Mock.package' / 'IceMockClass1.class' / IceDefinition definitionFileName) exists.
 	self assert: (project repository / 'Ice-Tests-Mock.package' / 'IceMockClass1.class' / 'class' / 'classMethod1.st') exists.
 	self assert: (project repository / 'Ice-Tests-Mock.package' / 'IceMockClass1.class' / 'instance' / 'method1.st') exists.

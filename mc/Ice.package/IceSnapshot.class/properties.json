@@ -1,0 +1,14 @@
+{
+	"category" : "Ice",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"definitions" ],
+	"name" : "IceSnapshot",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -12,6 +12,6 @@ testAddTrait
 
 	self assert: (project repository / 'Ice-Tests-Mock.package') exists.
 	self assert: (project repository / 'Ice-Tests-Mock.package' / 'TIceMockTrait1.trait') exists.
-	self assert: (project repository / 'Ice-Tests-Mock.package' / 'TIceMockTrait1.trait' / IceDescription definitionFileName) exists.
+	self assert: (project repository / 'Ice-Tests-Mock.package' / 'TIceMockTrait1.trait' / IceDefinition definitionFileName) exists.
 	self assert: (project repository / 'Ice-Tests-Mock.package' / 'TIceMockTrait1.trait' / 'class' / 'traitClassMethod1.st') exists.
 	self assert: (project repository / 'Ice-Tests-Mock.package' / 'TIceMockTrait1.trait' / 'instance' / 'traitMethod1.st') exists

@@ -9,7 +9,7 @@ testClassRecategorized
 	project addPackage: package.
 	
 	classDir := project repository / 'Ice-Tests-Mock.package' / 'IceMockClass1.class'.
-	classDef := classDir / IceDescription definitionFileName.
+	classDef := classDir / IceDefinition definitionFileName.
 	self assert: classDef exists.
 	self assert: (project version  readClassDescriptionFrom: classDir) category = 'Ice-Tests-Mock'. 
 

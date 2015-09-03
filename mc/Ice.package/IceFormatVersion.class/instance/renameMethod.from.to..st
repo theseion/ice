@@ -2,10 +2,10 @@ renaming
 renameMethod: aMethod from: oldName to: newName
 	| fromDescription toDescription |
 	
-	fromDescription := (IceMethodDescription from: aMethod)
+	fromDescription := (IceMethodDefinition from: aMethod)
 		name: oldName;
 		yourself.
-	toDescription := (IceMethodDescription from: aMethod) 
+	toDescription := (IceMethodDefinition from: aMethod) 
 		name: newName; "change the name!"
 		yourself.
 

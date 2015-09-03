@@ -1,5 +1,5 @@
 accessing
 indirectClasses 
-	^ (IceDescription allSubclasses 
+	^ (IceDefinition allSubclasses 
 		collect: [ :each | each stonName -> each ])
 		asDictionary

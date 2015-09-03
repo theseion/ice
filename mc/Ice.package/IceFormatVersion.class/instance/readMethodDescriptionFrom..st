@@ -3,7 +3,7 @@ readMethodDescriptionFrom: aReference
 	| contents description classDir |
 	contents := aReference readStreamDo: [ :stream | self split: stream contents ].
 	description := aReference readStreamDo: [ :stream | 
-		IceDescription 
+		IceDefinition 
 			fromStream: contents first readStream 
 			version: self ].
 	description source: contents second.

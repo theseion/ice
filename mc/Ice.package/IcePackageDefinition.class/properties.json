@@ -1,5 +1,5 @@
 {
-	"category" : "Ice-Description",
+	"category" : "Ice-Definitions",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -7,8 +7,8 @@
 	"commentStamp" : "<historical>",
 	"instvars" : [
 		 ],
-	"name" : "IcePackageDescription",
+	"name" : "IcePackageDefinition",
 	"pools" : [
 		 ],
-	"super" : "IceDescription",
+	"super" : "IceDefinition",
 	"type" : "normal" }
