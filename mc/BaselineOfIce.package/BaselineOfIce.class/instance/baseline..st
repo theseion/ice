@@ -4,9 +4,10 @@ baseline: spec
 	
 	spec for: #pharo do: [
 		"self libGit2: spec."
+		self logger: spec.
 		
 		spec
-			package: 'Ice' "with: [ spec requires: #('LibGit2') ]";
+			package: 'Ice' with: [ spec requires: #('Logger') ];
 			package: 'Ice-Tests' with: [ spec requires: #('Ice') ];
 			package: 'Ice-Tests-Mock'.
 			
