@@ -1,5 +1,8 @@
 visitor
 visitMethod: aMethod
-	^ (aMethod origin instanceSide iceAccept: self) / (aMethod origin isInstanceSide 
-		ifTrue: [ 'instance' ]
-		ifFalse: [ 'class' ]) 
+	^ self root 
+		/ (aMethod package name, self class extensionPackage) 
+		/ (aMethod origin instanceSide name, (self behaviorExtensionForMethod: aMethod)) 
+		/ (aMethod origin isInstanceSide 
+			ifTrue: [ 'instance' ]
+			ifFalse: [ 'class' ])

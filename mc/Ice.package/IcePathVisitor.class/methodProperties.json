@@ -1,16 +1,21 @@
 {
 	"class" : {
+		"extensionClass" : "EstebanLorenzano 9/3/2015 07:39",
+		"extensionExtension" : "EstebanLorenzano 9/3/2015 07:40",
+		"extensionPackage" : "EstebanLorenzano 9/3/2015 07:39",
+		"extensionTrait" : "EstebanLorenzano 9/3/2015 07:39",
 		"new" : "EstebanLorenzano 7/10/2015 14:34",
 		"root:" : "EstebanLorenzano 7/10/2015 14:34" },
 	"instance" : {
+		"behaviorExtensionForMethod:" : "EstebanLorenzano 9/3/2015 07:37",
 		"behaviorExtensionForMethodDescription:" : "EstebanLorenzano 9/2/2015 11:19",
 		"initializeRoot:" : "EstebanLorenzano 7/10/2015 14:34",
 		"root" : "EstebanLorenzano 7/10/2015 14:34",
-		"visitClass:" : "EstebanLorenzano 7/10/2015 14:33",
-		"visitClassDescription:" : "EstebanLorenzano 9/2/2015 10:34",
-		"visitMethod:" : "EstebanLorenzano 9/1/2015 17:25",
-		"visitMethodDescription:" : "EstebanLorenzano 9/2/2015 11:15",
-		"visitPackage:" : "EstebanLorenzano 7/10/2015 14:33",
-		"visitPackageDescription:" : "EstebanLorenzano 9/2/2015 10:24",
-		"visitTrait:" : "EstebanLorenzano 9/1/2015 17:28",
-		"visitTraitDescription:" : "EstebanLorenzano 9/2/2015 10:34" } }
+		"visitClass:" : "EstebanLorenzano 9/3/2015 07:49",
+		"visitClassDescription:" : "EstebanLorenzano 9/3/2015 07:40",
+		"visitMethod:" : "EstebanLorenzano 9/3/2015 07:49",
+		"visitMethodDescription:" : "EstebanLorenzano 9/3/2015 07:41",
+		"visitPackage:" : "EstebanLorenzano 9/3/2015 07:41",
+		"visitPackageDescription:" : "EstebanLorenzano 9/3/2015 07:42",
+		"visitTrait:" : "EstebanLorenzano 9/3/2015 07:43",
+		"visitTraitDescription:" : "EstebanLorenzano 9/3/2015 07:42" } }

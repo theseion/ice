@@ -2,6 +2,7 @@
 	"category" : "Ice",
 	"classinstvars" : [
 		"uniqueInstance" ],
+	"classtraitcomposition" : "TLogueable classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
@@ -11,4 +12,5 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
+	"traitcomposition" : "TLogueable",
 	"type" : "normal" }

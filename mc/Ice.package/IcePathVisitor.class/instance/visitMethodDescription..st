@@ -1,7 +1,7 @@
 visitor
 visitMethodDescription: aDescription	
 	^ self root 
-		/ (aDescription packageName, '.package') 
+		/ (aDescription packageName, self class extensionPackage) 
 		/ (aDescription className, (self behaviorExtensionForMethodDescription: aDescription)) 
 		/ (aDescription isInstanceSide 
 			ifTrue: [ 'instance' ]

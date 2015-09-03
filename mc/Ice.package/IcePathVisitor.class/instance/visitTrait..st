@@ -1,3 +1,5 @@
 visitor
 visitTrait: aTrait
-	^ (aTrait package iceAccept: self) / (aTrait name, '.trait')
+	^ self root
+		/ (aTrait package name, self class extensionPackage) 
+		/ (aTrait name, self class extensionTrait)
