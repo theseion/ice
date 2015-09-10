@@ -19,7 +19,7 @@ testRecordMethod
 	self assert: methodDefinition class equals: IceMethodDefinition.
 	self assert: methodDefinition name equals: 'method1'.	
 	self assert: methodDefinition packageName equals: 'Ice-Tests-Mock'.
-	self assert: methodDefinition protocols equals: #(accessing).
+	self assert: methodDefinition protocols equals: #(testing).
 	self assert: methodDefinition isInstanceSide.
 	self deny: methodDefinition isTrait.
 	self deny: methodDefinition isExtension.
