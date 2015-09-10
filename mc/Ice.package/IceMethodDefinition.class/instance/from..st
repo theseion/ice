@@ -7,5 +7,5 @@ from: aMethod
 	isTrait := aMethod origin isTrait.
 	isExtension := aMethod realProtocol isExtensionProtocol.  
 	timeStamp := aMethod timeStamp. 
-	categories := { aMethod category }.
+	protocols := { aMethod category }.
 	source := aMethod sourceCode.

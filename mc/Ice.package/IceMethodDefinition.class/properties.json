@@ -11,7 +11,7 @@
 		"isInstanceSide",
 		"isTrait",
 		"isExtension",
-		"categories",
+		"protocols",
 		"timeStamp",
 		"source" ],
 	"name" : "IceMethodDefinition",
