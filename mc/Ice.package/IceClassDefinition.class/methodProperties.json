@@ -1,13 +1,15 @@
 {
 	"class" : {
-		"loadOrder" : "EstebanLorenzano 9/10/2015 16:41",
-		"stonAllInstVarNames" : "EstebanLorenzano 4/20/2015 15:43",
+		"loadOrder" : "EstebanLorenzano 9/11/2015 09:18",
+		"stonAllInstVarNames" : "EstebanLorenzano 9/11/2015 14:31",
 		"stonName" : "EstebanLorenzano 4/9/2015 18:05" },
 	"instance" : {
+		"asMCDefinition" : "EstebanLorenzano 9/11/2015 14:33",
 		"classSlots" : "EstebanLorenzano 4/9/2015 18:09",
-		"from:" : "EstebanLorenzano 7/8/2015 16:09",
-		"iceAccept:" : "EstebanLorenzano 9/2/2015 10:19",
+		"from:" : "EstebanLorenzano 9/11/2015 14:32",
+		"iceAccept:" : "EstebanLorenzano 9/10/2015 19:18",
 		"sharedPools" : "EstebanLorenzano 4/9/2015 18:09",
 		"sharedSlots" : "EstebanLorenzano 4/9/2015 18:09",
 		"slots" : "EstebanLorenzano 4/9/2015 18:09",
-		"superclass" : "EstebanLorenzano 4/9/2015 18:09" } }
+		"superclass" : "EstebanLorenzano 4/9/2015 18:09",
+		"type" : "EstebanLorenzano 9/11/2015 14:31" } }

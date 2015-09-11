@@ -1,4 +1,4 @@
 accessing
 loadOrder
-	"Classes should be injected third (after traits, before methods)"
-	^ 3
+	"Classes should be injected at the end, after traits"
+	^ 4

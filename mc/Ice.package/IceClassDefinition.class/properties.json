@@ -7,6 +7,7 @@
 	"commentStamp" : "EstebanLorenzano 5/9/2015 15:26",
 	"instvars" : [
 		"superclass",
+		"type",
 		"classSlots",
 		"sharedSlots",
 		"slots",

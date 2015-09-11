@@ -1,3 +1,3 @@
 visiting
 iceAccept: aVisitor
-	^ aVisitor visitPackageDescription: self
+	^ aVisitor visitPackageDefinition: self

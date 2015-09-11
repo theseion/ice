@@ -1,4 +1,4 @@
 accessing
 loadOrder
-	"Traits should be injected second (before classes)"
-	^ 2
+	"Traits should be injected third (before classes)"
+	^ 3

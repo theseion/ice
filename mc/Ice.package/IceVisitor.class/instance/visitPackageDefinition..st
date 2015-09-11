@@ -1,0 +1,3 @@
+visitor
+visitPackageDefinition: aDefinition
+	self subclassResponsibility

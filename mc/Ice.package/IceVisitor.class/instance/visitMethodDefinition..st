@@ -1,0 +1,3 @@
+visitor
+visitMethodDefinition: aDefinition
+	self subclassResponsibility

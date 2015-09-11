@@ -1,5 +1,6 @@
 initialization
 initialize
 	super initialize.
-	definitions := OrderedCollection new: 100.
+	definitions := OrderedCollection new.
 	self record.
+	self sortDefinitions.

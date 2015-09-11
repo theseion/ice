@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"initialize" : "EstebanLorenzano 9/10/2015 19:17",
+		"snapshot" : "EstebanLorenzano 9/10/2015 19:30",
+		"visitClassDefinition:" : "EstebanLorenzano 9/10/2015 19:20",
+		"visitDefinition:" : "EstebanLorenzano 9/10/2015 19:35",
+		"visitMethodDefinition:" : "EstebanLorenzano 9/10/2015 19:21",
+		"visitPackageDefinition:" : "EstebanLorenzano 9/10/2015 19:30",
+		"visitSnapshot:" : "EstebanLorenzano 9/10/2015 19:34",
+		"visitTraitDefinition:" : "EstebanLorenzano 9/10/2015 19:41" } }

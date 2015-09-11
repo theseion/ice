@@ -1,0 +1,14 @@
+{
+	"category" : "Ice",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "IceInstantSnapshot",
+	"pools" : [
+		 ],
+	"super" : "IceSnapshot",
+	"type" : "normal" }

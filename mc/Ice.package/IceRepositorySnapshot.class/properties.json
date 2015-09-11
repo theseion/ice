@@ -1,0 +1,14 @@
+{
+	"category" : "Ice",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "EstebanLorenzano 9/10/2015 13:16",
+	"instvars" : [
+		 ],
+	"name" : "IceRepositorySnapshot",
+	"pools" : [
+		 ],
+	"super" : "IceSnapshot",
+	"type" : "normal" }

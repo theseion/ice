@@ -1,11 +1,12 @@
 {
 	"class" : {
 		"createSpecials" : "EstebanLorenzano 4/10/2015 14:00",
-		"loadOrder" : "EstebanLorenzano 9/10/2015 16:42",
+		"loadOrder" : "EstebanLorenzano 9/11/2015 09:17",
 		"specials" : "EstebanLorenzano 4/10/2015 14:00",
 		"stonAllInstVarNames" : "EstebanLorenzano 9/10/2015 13:21",
 		"stonName" : "EstebanLorenzano 4/9/2015 18:13" },
 	"instance" : {
+		"asMCDefinition" : "EstebanLorenzano 9/10/2015 19:35",
 		"className" : "EstebanLorenzano 9/2/2015 11:03",
 		"className:" : "EstebanLorenzano 9/2/2015 12:17",
 		"extractNameFromSource" : "EstebanLorenzano 9/3/2015 09:40",
@@ -14,8 +15,8 @@
 		"flagExtension:" : "EstebanLorenzano 9/2/2015 12:18",
 		"flagInstanceSide:" : "EstebanLorenzano 9/2/2015 12:18",
 		"flagTrait:" : "EstebanLorenzano 9/2/2015 12:18",
-		"from:" : "EstebanLorenzano 9/10/2015 13:22",
-		"iceAccept:" : "EstebanLorenzano 9/2/2015 10:21",
+		"from:" : "EstebanLorenzano 9/11/2015 13:04",
+		"iceAccept:" : "EstebanLorenzano 9/10/2015 19:18",
 		"isExtension" : "EstebanLorenzano 9/2/2015 11:19",
 		"isInstanceSide" : "EstebanLorenzano 9/2/2015 11:17",
 		"isTrait" : "EstebanLorenzano 9/2/2015 11:19",
@@ -26,4 +27,5 @@
 		"protocols" : "EstebanLorenzano 9/10/2015 13:22",
 		"sideDirectory" : "EstebanLorenzano 4/10/2015 14:03",
 		"source" : "EstebanLorenzano 4/10/2015 17:58",
-		"source:" : "EstebanLorenzano 9/2/2015 12:22" } }
+		"source:" : "EstebanLorenzano 9/2/2015 12:22",
+		"timeStamp" : "EstebanLorenzano 9/10/2015 19:35" } }

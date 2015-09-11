@@ -1,0 +1,1 @@
+I can create an MCSnapshot taking as input an IceSnapshot. 

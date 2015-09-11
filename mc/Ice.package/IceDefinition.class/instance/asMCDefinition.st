@@ -1,0 +1,3 @@
+converting
+asMCDefinition
+	^ self subclassResponsibility

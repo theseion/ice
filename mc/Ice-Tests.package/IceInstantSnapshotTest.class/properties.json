@@ -1,0 +1,14 @@
+{
+	"category" : "Ice-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "IceInstantSnapshotTest",
+	"pools" : [
+		 ],
+	"super" : "IceTestCase",
+	"type" : "normal" }

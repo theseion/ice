@@ -4,6 +4,7 @@ from: aClass
 	self traits: (aClass traitComposition ifNotNil: #asString).
 	self classTraits: (aClass class traitComposition ifNotNil: #asString).		
 	
+	type := aClass typeOfClass.
 	superclass := aClass superclass name.
 	classSlots := aClass class slotNames asArray.
 	sharedSlots := aClass classPool keys asArray.

@@ -1,3 +1,0 @@
-visitor
-visitPackageDescription: aDescription
-	self subclassResponsibility

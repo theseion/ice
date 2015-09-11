@@ -1,4 +1,4 @@
 accessing
 loadOrder
-	"Methods should be injected last (right after classes)"
-	^ 4
+	"Methods should be injected second (right after packages)"
+	^ 2

@@ -1,0 +1,15 @@
+{
+	"category" : "Ice",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"definitions",
+		"organizationDefinition" ],
+	"name" : "IceMCSnapshotVisitor",
+	"pools" : [
+		 ],
+	"super" : "IceVisitor",
+	"type" : "normal" }
